@@ -1,6 +1,16 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div id="home">
+
+  
+      <a href="/about">
+        <img
+          src="../assets/ENTER SITE.fw.png"
+          class="enter"
+         
+          alt="enter-site"
+      /></a>
+  
+   
    
   </div>
 </template>

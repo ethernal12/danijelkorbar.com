@@ -1,0 +1,205 @@
+template {
+    animation: fadein 7s;
+    
+  }
+  .pic1 {
+    display: block;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    
+  }
+  .pic2 {
+    object-fit: cover;
+    position: absolute;
+    transform: rotate(-20deg);
+    top:700px;
+    right: 5%;
+    height: 400px;
+    width: 400px;
+    z-index:-1;
+   
+  }
+  .pic3 {
+    object-fit: cover;
+    position: absolute;
+    transform: rotate(20deg);
+    left: 5%;
+    top:500px;
+    height: 400px;
+    width: 400px;
+    z-index:-1;
+   
+  }
+  #GitHub{
+    display: block;
+    margin-left: 45%;
+    
+    height: 50px;
+    width: 400px;
+  }
+  .enter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+   
+  }
+  body {
+    
+  
+    background-color: black;
+  }
+ 
+
+  
+  #app {
+   
+    padding: 10px;
+    background-image: -webkit-linear-gradient(bottom, #020202 40%, #00A3EF 100%);
+    font-family: Segoe UI Black, Palatino Linotype, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: justify;
+    z-index:1;
+    color: rgb(253, 252, 252);
+    position: relative;
+  }
+  #about {
+    background-color: color|transparent|initial|inherit;
+    object-fit: cover;
+    border-radius: 50px;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+  }
+  #home{
+    background-color: color|transparent|initial|inherit;
+
+  }
+  #contact{
+    background-color: color|transparent|initial|inherit;
+
+  }
+  #home{
+    text-align: center;
+    
+    margin-top: 300px;
+  }
+  #bio {
+    background-color: color|transparent|initial|inherit;
+    font-size: 20px;
+    margin-bottom:40px;
+  }
+
+     /* Control the left side in bio*/
+#left {
+        background-color: color|transparent|initial|inherit;
+       
+        border-right: 5px solid rgb(252, 251, 251);
+      }
+   /* Control the right side in bio*/
+#right {
+    background-color: color|transparent|initial|inherit;
+   
+  }
+
+
+
+  .router-link {
+    color: #f3a826;
+  }
+  nav {
+    padding: 30px;
+    color: #f3a826;
+  }
+  .router-link-active {
+    font-weight: 700;
+  }
+  .nav li:hover {
+    color: #d30e0e;
+  }
+  .nav a {
+    font-weight: bold;
+    color: #366de4;
+  }
+  p {
+    margin: 10px;
+    font-size: 25px;
+    font-family: Segoe UI rgb(0, 0, 0), Palatino Linotype, Helvetica, Arial,
+      sans-serif;
+  }
+  #myHeader{
+    text-align: center;
+    color: #169cee;
+    white-space: nowrap; 
+  }
+  
+  span {
+    color: #169cee;
+    font-size: larger;
+  }
+
+  h1 {
+    white-space: nowrap; 
+    text-align: center;
+    color: #169cee;
+    margin-top:30px;
+    margin-bottom: 30px;
+   
+    
+  }
+  h2 {
+    text-align: center;
+    color: rgb(22, 156, 238);
+   
+  }
+  h3 {
+    text-align: center;
+    
+   
+  }
+  h4 {
+    font-size: 25px;
+    text-align: center;
+    color: #169cee;
+    
+   
+  }
+  h1:before {
+    content: "";
+    margin: 5px;
+    vertical-align:middle;
+    display: inline-block;
+    width: 200px;
+    height: 3px;
+    background: -webkit-linear-gradient(right, rgb(250, 246, 246) 0%, transparent 100%);
+}
+h1:after {
+    content: "";
+    margin: 5px;
+    vertical-align:middle;
+    display: inline-block;
+    width: 200px;
+    height: 3px;
+    background: -webkit-linear-gradient(left, rgb(253, 251, 251) 0%, transparent 100%);
+}
+  
+@keyframes fadein {
+    from {
+      background: #f9fbfc;
+    }
+  
+    to {
+      background: #000000;
+    }
+  }
+
+
+
