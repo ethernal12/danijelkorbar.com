@@ -14,38 +14,42 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Hidden brand</a>
+          <a class="navbar-brand" href="#">Danijel Korbar</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
-            </li>
+         
 
             <li class="nav-item">
               <router-link class="nav-link" to="/biography"
                 >Biography</router-link
               >
             </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/experience"
+                >Experience</router-link
+              >
+            </li>
 
             <li class="nav-item">
               <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
+              <li class="nav-item" >
+             <a
+          href="https://github.com/ethernal12?tab=repositories"
+          target="_blank"
+        >
+          <img src="./assets/github_icon.png" height="35px" style = "margin-left:20px" alt="GitHub-pic"
+        /></a>
+            </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
+     
+   
+      
+     
     </nav>
 
     <router-view />
@@ -53,7 +57,7 @@
 </template>
 
 <style>
-@import 'main.css';
+@import "main.css";
 </style>
 
 

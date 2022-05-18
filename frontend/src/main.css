@@ -4,6 +4,7 @@ template {
   }
   .pic1 {
     display: block;
+    padding-top:20px;
     margin-bottom:10px;
     margin-left: auto;
     margin-right: auto;
@@ -35,18 +36,12 @@ template {
     z-index:-1;
    
   }
-  #GitHub{
-    display: block;
-    margin-left: 45%;
-    
-    height: 50px;
-    width: 400px;
-  }
+  
   .enter{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50%;
+    margin-bottom: 50%; /*problemi*/
    
   }
   body {
@@ -59,9 +54,9 @@ template {
   
   #app {
    
-    padding: 10px;
+    
     background-image: -webkit-linear-gradient(bottom, #020202 40%, #00A3EF 100%);
-    font-family: Segoe UI Black, Palatino Linotype, Helvetica, Arial, sans-serif;
+    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: justify;
@@ -74,11 +69,12 @@ template {
     object-fit: cover;
     border-radius: 50px;
     position: absolute;
-    top: 300%;
+    top: 300%; /*Problemi*/
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:1;
   }
+
   #home{
     background-color: color|transparent|initial|inherit;
 
@@ -93,6 +89,13 @@ template {
     margin-top: 300px;
   }
   #bio {
+    padding: 0 60px;
+    background-color: color|transparent|initial|inherit;
+    font-size: 20px;
+    margin-bottom:40px;
+  }
+  #experience {
+    padding: 0 60px;
     background-color: color|transparent|initial|inherit;
     font-size: 20px;
     margin-bottom:40px;
@@ -101,16 +104,13 @@ template {
      /* Control the left side in bio*/
 #left {
         background-color: color|transparent|initial|inherit;
-       
-        border-right: 5px solid rgb(252, 251, 251);
+ 
       }
    /* Control the right side in bio*/
 #right {
     background-color: color|transparent|initial|inherit;
    
   }
-
-
 
   .router-link {
     color: #f3a826;
@@ -137,7 +137,7 @@ template {
   }
   #myHeader{
     text-align: center;
-    color: #169cee;
+    color: #FFFFFF;
     white-space: nowrap; 
   }
   
@@ -190,16 +190,6 @@ h1:after {
     height: 3px;
     background: -webkit-linear-gradient(left, rgb(253, 251, 251) 0%, transparent 100%);
 }
-  
-@keyframes fadein {
-    from {
-      background: #f9fbfc;
-    }
-  
-    to {
-      background: #000000;
-    }
-  }
 
 
 
