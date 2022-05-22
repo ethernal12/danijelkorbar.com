@@ -54,7 +54,7 @@ template {
   
   #app {
    
-    
+   
     background-image: -webkit-linear-gradient(bottom, #020202 40%, #00A3EF 100%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -142,8 +142,10 @@ template {
   }
   
   span {
-    color: #169cee;
+    color: #32a7f0;
     font-size: larger;
+    font-weight: bold;
+    text-shadow:1px 1px 4px #4fafeb, 1px 1px 4px #32a7f0;
   }
 
   h1 {
