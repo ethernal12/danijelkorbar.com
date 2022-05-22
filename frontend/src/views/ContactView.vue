@@ -6,6 +6,7 @@
       id="contactForm"
   
     >
+    <h3>Get in touch with me!</h3>
       <div class="form-floating mb-3">
         <input
           class="form-control"
@@ -14,7 +15,8 @@
           name="email"
           data-sb-validations="required,email"
         />
-        <label for="emailAddress" style="color: black">Email Address</label>
+        
+        <label for="emailAddress" style="color: black">Your email address</label>
         <div class="invalid-feedback" data-sb-feedback="emailAddress:required">
           Email Address is required.
         </div>
