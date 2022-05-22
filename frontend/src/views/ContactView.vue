@@ -2,7 +2,7 @@
 <template>
   <div class="container px-5 my-5">
     <form action="https://formspree.io/f/mzboywvp" method="POST" id="contactForm" data-sb-form-api-token=be6a58b7-f669-4ee4-8f8d-5e1989a93ee9>
-      <h3>process.env.FORM_ACCESS_KEY</h3>
+      <h3>Get in touch with me!</h3>
       <div class="form-floating mb-3">
         <input class="form-control" id="emailAddress" type="email" placeholder="email Address" name="email" data-sb-validations="required,email"  />
 
