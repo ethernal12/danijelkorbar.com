@@ -31,7 +31,6 @@
         As far as I can remember I was fascinated with programming. The sheer
         fact of something comming alive by typing a few characters, numbers and
         commands was mind boggling.
-        <!-- Like it was yesterday I can remember my first ZX Spectrum computer and the first few IF, THEN and GOTO commands. Oh what joy set in when I could calculate few numbers together and finnaly impress my sister. -->
         As much as I was dazzled with the idea of programming and a programming
         education leading to a profession, for some reason I chose the field of
         electronics.

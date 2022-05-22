@@ -44,8 +44,7 @@
         testing with Chai I realized that I enjoyed the process of a structural
         testing procedure. It was something really satisfying about testing for
         every smart contract condition and passing all the tests with flying
-        colors, well... in my case, with green checkmarks. chemical process of a particual
-        product.
+        colors, well... in my case, with green checkmarks.
       </p>
     </div>
     </div>
