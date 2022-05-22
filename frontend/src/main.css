@@ -18,7 +18,7 @@ template {
     object-fit: cover;
     position: absolute;
     transform: rotate(-20deg);
-    top:700px;
+    top:1000px;
     right: 5%;
     height: 400px;
     width: 400px;
@@ -56,7 +56,6 @@ template {
    
     
     background-image: -webkit-linear-gradient(bottom, #020202 40%, #00A3EF 100%);
-    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: justify;
@@ -65,11 +64,12 @@ template {
     position: relative;
   }
   #about {
+    max-height: 800px;
     background-color: color|transparent|initial|inherit;
     object-fit: cover;
     border-radius: 50px;
     position: absolute;
-    top: 300%; /*Problemi*/
+    top: 230%; /*Problemi*/
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:1;
